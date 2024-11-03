@@ -1,0 +1,63 @@
+/* signup.css */
+
+body {
+    font-family: Arial, sans-serif; /* Set the font family */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #f0f2f5; /* Light background color */
+}
+
+h2 {
+    color: #333; /* Dark color for headings */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 20px; /* Padding around the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    width: 300px; /* Fixed width for the form */
+    text-align: center; /* Center align text inside the form */
+}
+
+label {
+    display: block; /* Each label on a new line */
+    margin-bottom: 8px; /* Space below labels */
+    color: #555; /* Dark grey for labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 15px; /* Space below inputs */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 4px; /* Rounded corners for inputs */
+    box-sizing: border-box; /* Include padding and border in total width */
+}
+
+button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside the button */
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Larger text size */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+
+#message {
+    margin-top: 416px;
+    color: green;
+}
